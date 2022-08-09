@@ -15,16 +15,15 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('           Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  shorthandle: chalk.white('bnb'),
-  work: chalk.white('Staff Developer Advocate at Twilio'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.white('           Huajun Chen'),
+  handle: chalk.white('Amanda'),
+  work: chalk.white('GIS Developer at Cognizant'),
+  // twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
+  // npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
+  github: chalk.gray('https://github.com/') + chalk.green('chen5656'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('huajun-chen'),
+  // web: chalk.cyan('https://bnb.im'),
+  // npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
   labelWork: chalk.white.bold('    Work:'),
   labelTwitter: chalk.white.bold(' Twitter:'),
   labelnpm: chalk.white.bold('     npm:'),
@@ -36,7 +35,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`
+const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
@@ -49,11 +48,11 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               twittering + newline + // data.labelTwitter + data.twitter
-               npming + newline + // data.labelnpm + data.npm
-               githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
-               webing + newline + newline + // data.labelWeb + data.web
-               carding // data.labelCard + data.npx
+               githubing + newline  // data.labelGitHub + data.github
+              //  twittering + newline + // data.labelTwitter + data.twitter
+              //  npming + newline + // data.labelnpm + data.npm
+              //  webing + newline + newline + // data.labelWeb + data.web
+              //  carding // data.labelCard + data.npx
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
