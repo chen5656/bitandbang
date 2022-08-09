@@ -1,7 +1,7 @@
 {
-  "name": "bitandbang",
-  "version": "2.1.1",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "huajunchen",
+  "version": "1.0.0",
+  "description": "A personal card for Huajun Chen (@chen5656)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
