@@ -1,4 +1,4 @@
-It's me, Tierney!
+Display my business card in the terminal.
 
 # Usage
 ```
@@ -6,4 +6,4 @@ npx huajunchen
 ```
 
 # Credit
-Forked from @bitandbang
+Forked from [@bitandbang](https://github.com/bnb/bitandbang)

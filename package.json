@@ -1,6 +1,6 @@
 {
   "name": "huajunchen",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A personal card for Huajun Chen (@chen5656)",
   "main": "/bin/card.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chen5656/bitandbang.git"
+    "url": "git+https://github.com/chen5656/BusinessCard.git"
   },
   "homepage": "https://github.com/chen5656",
   "scripts": {
