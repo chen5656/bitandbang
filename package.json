@@ -1,6 +1,6 @@
 {
   "name": "huajunchen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Huajun Chen (@chen5656)",
   "main": "/bin/card.js",
   "bin": {
