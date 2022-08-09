@@ -23,7 +23,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('chen5656'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('huajun-chen'),
   // web: chalk.cyan('https://bnb.im'),
-  // npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  npx: chalk.red('npx') + ' ' + chalk.white('huajunchen'),
   labelWork: chalk.white.bold('    Work:'),
   labelTwitter: chalk.white.bold(' Twitter:'),
   labelnpm: chalk.white.bold('     npm:'),
@@ -49,10 +49,11 @@ const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
                linkedining + newline + // data.labelLinkedIn + data.linkedin
-               githubing + newline  // data.labelGitHub + data.github
+               githubing + newline + // data.labelGitHub + data.github
               //  twittering + newline + // data.labelTwitter + data.twitter
               //  npming + newline + // data.labelnpm + data.npm
-              //  webing + newline + newline + // data.labelWeb + data.web
-              //  carding // data.labelCard + data.npx
+              //  webing + newline +
+               newline + // data.labelWeb + data.web
+               carding // data.labelCard + data.npx
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
